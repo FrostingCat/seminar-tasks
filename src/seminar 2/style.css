@@ -1,0 +1,27 @@
+body {
+    background: #F4F1F8;
+}
+table {
+    border-collapse: collapse;
+    color: #0C213B;
+	background: burlywood;
+}
+.name {
+	color:brown;
+	font-size: 28px;
+}
+caption {
+    padding: 10px; 
+}
+th {
+    padding: 10px; 
+    border: 1px solid;
+}
+td {
+    padding: 10px;
+    border: 1px solid;
+}
+.bold {
+    font-weight: bold;
+    text-align: center;
+}

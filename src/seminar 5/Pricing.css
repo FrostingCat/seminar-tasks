@@ -1,0 +1,20 @@
+.pricing-ev {
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.pricing {
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 50px;
+	color: rgba(0, 0, 0, 0.87);
+}
+
+.pricing-info {
+	width: 650px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.6);
+}

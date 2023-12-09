@@ -1,0 +1,65 @@
+.grids {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: calc(100% + 40px);
+	align-items: center;
+	justify-content: center;
+}
+
+.one-grid {
+	gap: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 40px;
+	flex-basis: 25%;
+    max-width: 50%;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+	background-color: gainsboro;
+}
+
+.header-text {
+	margin-left: 90px;
+	width: 150px;
+	align-items: center;
+	text-align: center;
+}
+
+.star {
+	margin-left: 50px;
+	width: 8%;
+	height: 8%;
+}
+
+.content {
+	text-align: center;
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+    margin-bottom: 16px;
+	text-align: center;
+}
+
+.actions {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    padding: 8px;
+}
+
+.body {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.button {
+	width: 100%;
+}
